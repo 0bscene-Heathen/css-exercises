@@ -5,10 +5,34 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+}
+
+.content {
+  flex: auto;
+}
+
+.footer {
+
 }
 
 img {
   width: 600px;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+
 }
 
 button {
