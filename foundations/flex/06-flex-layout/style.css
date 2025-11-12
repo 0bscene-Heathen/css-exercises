@@ -13,14 +13,38 @@ body {
 
 .header {
   display: flex;
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 18px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }
 
 .content {
   flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .footer {
-
+  background-color: #eeeeee;
+  display: flex;
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 18px;
 }
 
 img {
@@ -29,9 +53,14 @@ img {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 18px;
 }
 a {
   text-decoration: none;
+  color: rgb(128, 128, 128);
 
 }
 
@@ -40,6 +69,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 9px;
 }
 
 input {
